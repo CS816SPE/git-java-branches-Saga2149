@@ -36,6 +36,13 @@ class Calculator{
 	                 System.out.print("Result = " + res);
 	                 break;
 
+	        case '4' : System.out.print("Enter Two Number : ");
+	                 a = scan.nextFloat();
+	                 b = scan.nextFloat();
+	                 res = a / b;
+	                 System.out.print("Result = " + res);
+	                 break;
+
 	        case '5': System.exit(0);
 	        			break;
 
